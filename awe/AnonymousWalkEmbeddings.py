@@ -124,8 +124,6 @@ class AWE(object):
         self.vocabulary_size = max(self.walk_ids.values()) + 1
         print('Number of words: {}'.format(self.vocabulary_size))
 
-
-
         # init all variables in a tensorflow graph
         self._init_graph()
 
