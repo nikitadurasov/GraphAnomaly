@@ -1,6 +1,6 @@
-import pandas as pd 
+import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import networkx as nx
 import os
 import re
@@ -61,7 +61,7 @@ def iterative_drawing_2d(model, labels):
 	        ax.scatter(model.graph_embeddings[i][0], model.graph_embeddings[i][1], c='b')
 	    else:
 	        ax.scatter(model.graph_embeddings[i][0], model.graph_embeddings[i][1], c='r')
-	    fig.canvas.draw()   
+	    fig.canvas.draw()
 	    time.sleep(0.01)
 
 
@@ -79,5 +79,5 @@ def iterative_drawing_2d_array(arr, labels):
 	        ax.scatter(array[i][0], array[i][1], c='b')
 	    else:
 	        ax.scatter(array[i][0], array[i][1], c='r')
-	    fig.canvas.draw()   
-	    time.sleep(0.0
+	    fig.canvas.draw()
+	    time.sleep(0.0)
